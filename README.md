@@ -1,2 +1,2 @@
 # Website-Kisten
-Website für die schüle
+Website für die schule
