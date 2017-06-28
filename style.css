@@ -127,21 +127,33 @@ article h1 {
 /* --------------- */
 /*    Produkte     */
 
-.c0 {
+.p0 {
     font-size: 30px;
     }
 
-.c1 {
-    text-align: center;
+.d0 {
+    border: solid; 
+    margin-bottom: 20px;
+}
+
+.t0 {
+    
+}
+
+.tr0 {
+    
+}
+
+.td0 {
+    padding: 10px 10px 10px 10px;
+}
+
+.td1 {
     font-size: 30px;
 }
 
-.c2 {
-    font-size: 25px;
-    float: right;
-}
 
-.d0 {
-    border: solid; 
+.a0{
+    color: white;
 }
 
