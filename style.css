@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Emilys+Candy|Nunito&subset=latin-ext');
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Emilys Candy', cursive;*/
+/*color
+Blau: #8beee9
+*/
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 100px 46px 1fr 25px;
+	grid-template-columns: 20% 60% 20%;
+}
+header {
+	background-color: #222;
+	grid-column: 1/4;
+	grid-row: 1/2;
+}
+header p {
+	height: auto;
+	margin: 0;
+
+}
+
+.logo{
+	height: 90px;
+	max-width: 401px;
+
+	margin-left: 5px;
+	margin-top: 5px;
+}
+/*Navigation start*/
+nav {
+	grid-column: 1/4;
+	grid-row: 2/3;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a {
+	display: block;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+/*Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+	background-color: #111;
+}
+.active {
+	background-color: grey;
+	color: black;
+}
+#about {
+	float: right;
+}
+/*Navigation ende*/
+main {
+	background: #222;
+	grid-column: 1/4;
+	grid-row: 3/4;
+}
+.content {
+	margin: 0 auto;
+	width: 60%;
+	height: 100%;
+}
+footer {
+	background: gray;
+	grid-column: 1/4;
+	grid-row: 4/5;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+}
+footer p {
+	margin: 1.5px auto;
+}
+footer a:link, footer a:visited {
+	text-decoration: none;
+	color: black;
+}
+article {
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+}
+article p,article h1 {
+	margin: 0;
+	padding: 10px;
+	color: antiquewhite;
+}
+
+article h1 {
+	color: antiquewhite;
+	padding-bottom: 0;
+	text-decoration: underline;
+}
+
+@media screen and (max-width : 500px) {
+#about {
+	float: left;
+}
+.content {
+	width: 100%;
+}
+}
+
+@media screen and (max-width : 800px) and (min-width: 500px) {
+.content {
+	width: 80%;
+}
+}
+
+
+/* ----------------------------------- */
+/*    Produkte  inklusive Sub-pages    */
+
+.p0 {
+    font-size: 30px;
+    }
+
+.d0 {
+    border: solid; 
+    margin-bottom: 20px;
+}
+
+.t0{
+    
+}
+
+.t1 {
+    color: white;
+    border: solid;
+    border-color: white;
+    margin: 20px;
+    padding: 10px;
+    border-spacing: 10px;
+}
+
+.tr0 {
+
+}
+
+.td0 {
+    padding: 10px 10px 10px 10px;
+}
+
+.td1 {
+    font-size: 20px;
+}
+
+
+.a0 {
+    color: white;
+}
+
+.i0 {
+    margin-top: 20px;
+}
+.h0 {
+    color: white;
+    font-size: 30px;
+}
+
+.ul0 {
+    
+}
+
+.li0 {
+    color: white;
+    font-size: 15px;
+}
+
+.p2 {
+    color: white;
+    font-size: 15px;
+    padding: 2px 5px 5px 5px;
+    border: 0px;
+    margin: 0px;
+}
+
+.p3 {
+    color: white;
+    font-size: 20px;
+    padding: 5px 0px 0px 0px;
+    border: 0px;
+    margin: 0px;
+}
+
