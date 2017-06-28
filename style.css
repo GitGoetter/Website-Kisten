@@ -137,7 +137,11 @@ article h1 {
     margin-bottom: 20px;
 }
 
-.t0 {
+.t0{
+    
+}
+
+.t1 {
     color: white;
     border: solid;
     border-color: white;
@@ -155,8 +159,7 @@ article h1 {
 }
 
 .td1 {
-    font-size: 30px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 
