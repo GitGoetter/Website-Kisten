@@ -142,12 +142,13 @@ article h1 {
 }
 
 .t1 {
-    color: white;
+    color: antiquewhite;
     border: solid;
-    border-color: white;
+    border-color: antiquewhite;
     margin: 20px;
     padding: 10px;
-    border-spacing: 10px;
+    border-spacing: 20px;
+    text-align: center;
 }
 
 .tr0 {
@@ -164,14 +165,19 @@ article h1 {
 
 
 .a0 {
-    color: white;
+    color: antiquewhite;
 }
 
 .i0 {
     margin-top: 20px;
 }
+
+.i1 {
+    margin: 30px;
+}
+
 .h0 {
-    color: white;
+    color: antiquewhite;
     font-size: 30px;
 }
 
@@ -180,12 +186,12 @@ article h1 {
 }
 
 .li0 {
-    color: white;
+    color: antiquewhite;
     font-size: 15px;
 }
 
 .p2 {
-    color: white;
+    color: antiquewhite;
     font-size: 15px;
     padding: 2px 5px 5px 5px;
     border: 0px;
@@ -193,7 +199,7 @@ article h1 {
 }
 
 .p3 {
-    color: white;
+    color: antiquewhite;
     font-size: 20px;
     padding: 5px 0px 0px 0px;
     border: 0px;
