@@ -124,8 +124,9 @@ article h1 {
 }
 }
 
-/* --------------- */
-/*    Produkte     */
+
+/* ----------------------------------- */
+/*    Produkte  inklusive Sub-pages    */
 
 .p0 {
     font-size: 30px;
@@ -136,12 +137,22 @@ article h1 {
     margin-bottom: 20px;
 }
 
-.t0 {
+.t0{
     
 }
 
+.t1 {
+    color: antiquewhite;
+    border: solid;
+    border-color: antiquewhite;
+    margin: 20px;
+    padding: 10px;
+    border-spacing: 20px;
+    text-align: center;
+}
+
 .tr0 {
-    
+
 }
 
 .td0 {
@@ -149,11 +160,49 @@ article h1 {
 }
 
 .td1 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
-.a0{
-    color: white;
+.a0 {
+    color: antiquewhite;
+}
+
+.i0 {
+    margin-top: 20px;
+}
+
+.i1 {
+    margin: 30px;
+}
+
+.h0 {
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+.ul0 {
+    
+}
+
+.li0 {
+    color: antiquewhite;
+    font-size: 15px;
+}
+
+.p2 {
+    color: antiquewhite;
+    font-size: 15px;
+    padding: 2px 5px 5px 5px;
+    border: 0px;
+    margin: 0px;
+}
+
+.p3 {
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 5px 0px 0px 0px;
+    border: 0px;
+    margin: 0px;
 }
 
